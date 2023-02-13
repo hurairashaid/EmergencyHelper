@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("background.jpeg");
+  background-repeat: round;
+}
+
+main {
+  height: 85vh;
+  background-color: white;
+  width: 60vw;
+  border-radius: 10px;
+}
+
+.firstsection {
+  height: 25vh;
+  padding: 6vh 6vh 0vh 6vh;
+}
+
+.firstsection > h1 {
+  text-align: center;
+  font-weight: 300;
+  font-family: sans;
+  margin: 0px;
+  height: 32%;
+}
+
+.firstsection > p {
+  text-align: center;
+  font-size: 15px;
+  font-family: sans;
+  margin: 2.5vh;
+  color: gray;
+}
+
+.secondsection {
+  height: 63.5%;
+  border-radius: 5%;
+  background-color: aliceblue;
+}
+
+.secondsection > .inner_element {
+  height: 76%;
+  padding: 5% 5% 5% 5%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  justify-items: center;
+}
+
+.inner_element > div {
+  background-color: white;
+  border-radius: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.inner_element > div:hover {
+  background-color: black;
+  color: white;
+}
+
+.inner_element > div > div:nth-child(1) {
+  height: 50%;
+  width: 40%;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_element > div > div:nth-child(1) > img:nth-child(1) {
+  height: 60%;
+  width: 59%;
+}
+
+.inner_element > div > div:nth-child(2) {
+  text-align: center;
+  padding-top: 18px;
+  font-family: sans;
+}
+
+.inner_element > div > div:nth-child(2) > h1 {
+  font-size: 14px;
+}
+
+.inner_element > div > div:nth-child(2) > p {
+  font-size: 12px;
+}
