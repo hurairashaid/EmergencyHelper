@@ -21,30 +21,6 @@
     <li>PHP: Server-side scripting language for dynamic web page generation and database interactions.</li>
 </ul>
 
-<h2>Installation:</h2>
-<ol>
-    <li><b>Clone the Repository:</b></li>
-    <code>git clone https://github.com/your-username/EmergencyHelper.git</code>
-
-    <li><b>Set Up Database:</b></li>
-    <ul>
-        <li>Create a MySQL database and import the provided schema file to set up the required tables.</li>
-        <li>Update the database connection details in the PHP files to match your environment.</li>
-    </ul>
-
-    <li><b>Configure Apache:</b></li>
-    <ul>
-        <li>Set up Apache to serve the application files.</li>
-        <li>Ensure proper permissions and directory configuration for PHP scripts.</li>
-    </ul>
-
-    <li><b>Start the Application:</b></li>
-    <ul>
-        <li>Ensure that the Apache and MySQL services are running.</li>
-        <li>Access the application through the respective URLs for the hospital and user portals.</li>
-    </ul>
-</ol>
-
 <h2>Usage:</h2>
 <h3>Hospital Portal:</h3>
 <ol>
